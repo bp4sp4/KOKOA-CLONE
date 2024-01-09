@@ -2,9 +2,69 @@
 
 ### HTML5, CSS3 기본기 다지기
 
+### 하는 이유 : 시멘틱하게 코드작성, css 파일 좀더 깔끔하게 정리 하기
+
 ### 2024/01/09(화) START
 
-<h2>24/01/09</h2>
+#### To do List
+
+[ ] Screen Header<br>
+[ ] Chat<br>
+[ ] Search<br>
+[ ] Eliipls<br>
+
+<h2>24/01/10(수)</h2>
+
+- 클론코딩 시작
+- 메인 index.html 생성
+  - import로 좀더 코드 간결하고 가독성 있게 정리(아주 유용함)
+  - vaiables.css 자주 써먹는 코드다 잘 기억해놓고 쓰자
+  - css 공부하면서 배웠던 position 부모가 relative 쓰고 자식이 absolute를 쓰면 그 공간안에서 움직임
+- css 쓰면서 항상 몰랐던걸 반성하자
+- 강의와의 조금 다르게 디자인 변경 앱형식 웹디자인 자동 반응형
+
+```
+.nav__link {
+    position: relative;
+    color: #2e363e;
+
+.nav__notification {
+
+    position: absolute;
+    left: 17px;
+    ottom: 17px;
+}
+```
+
+```
+:root {
+    --yellow: #fae100;
+}
+
+excss {
+    color : var(--yellow)
+}
+```
+
+```
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import "reset.css";
+@import "variables.css";
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+/* Screens */
+@import "screens/login.css";
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ededed;
+
+}
+```
+
+<h2>24/01/09(화)</h2>
 <h3>css 기본기 - display</h3>
 
 - display : inline -> 높이와 너비가 없음 지정이안됨

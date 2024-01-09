@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to KoKoa Clone</title>
+    <title>Friends - KoKoa Clone</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -26,21 +26,23 @@
             <hr>
         </div>
 
-        <div class="main">
-            <header class="welcome-header">
-                <h1 class="welcome-header__title">Welcome to KoKoa Clone</h1>
-                <p class="welcome-header__text">
-                    If you have a KoKoa Account, log in with your email or phone number.
-                </p>
-            </header>
-            <form id="login-form" action="friends.html" method="get">
-                <input name="username" type="text" placeholder="Email or phone number" />
-                <input name="password" type="password" placeholder="Password" />
-                <input type="submit" value="Log In" />
-                <a href="#">Find KoKoa Account or Password</a>
-            </form>
 
-        </div>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__btn"><a class="nav__link" href="#">
+                        <i class="fa-solid fa-user fa-2x"></i></a></li>
+                <li class="nav__btn"><a class="nav__link" href="#">
+                        <span class="nav__notification">1</span><i class="fa-regular fa-comment fa-2x"></i></a></li>
+                <li class="nav__btn"><a class="nav__link" href="#"><i
+                            class="fa-solid fa-magnifying-glass fa-2x"></i></a>
+                </li>
+                <li class="nav__btn"><a class="nav__link" href="#">
+                        <span class="nav__ellipsis"></span><i class="fa-solid fa-ellipsis fa-2x"></i></a></li>
+            </ul>
+        </nav>
+
+
+
     </div>
 
     <script src="https://kit.fontawesome.com/f15b369f5f.js" crossorigin="anonymous"></script>
