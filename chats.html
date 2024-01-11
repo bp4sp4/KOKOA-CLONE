@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chats - KoKoa Clone</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No services</span>
+                <i class="fa-solid fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span id="current-time"></span>
+            </div>
+            <div class="status-bar__column">
+                <span>110%</span>
+                <i class="fa-solid fa-battery-full fa-lg"></i>
+                <i class="fa-solid fa-bolt"></i>
+            </div>
+            <hr>
+        </div>
+        <header class="screen-header">
+            <h1 class="screen-header__title">채팅</h1>
+            <div class="screen-header__icons">
+                <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+                <span><i class="fa-regular fa-comment-dots fa-lg"></i></span>
+                <span><i class="fa-solid fa-music fa-lg"></i></span>
+                <span><i class="fa-solid fa-gear fa-lg"></i></span>
+            </div>
+        </header>
+
+        <main class="main-screen">
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="img/profile.jpeg" class="user-component__avatar user-component__avatar" alt="">
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">박상훈</h4>
+                        <h6 class="user-component__subtitle">내 계정을 확인해보세요.</h6>
+                    </div>
+                </div>
+                <div class="user-component_column">
+                    <span class="user-component-time">22:22</span>
+                    <div class="badge2">1</div>
+                </div>
+            </div>
+
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="https://i1.sndcdn.com/artworks-dRAsP1rzhPkVkNyo-edE2dg-t500x500.jpg"
+                        class="user-component__avatar user-component__avatar" alt="">
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">윈터</h4>
+                        <h6 class="user-component__subtitle">나와! 밥먹자 사줄게!</h6>
+                    </div>
+                </div>
+                <div class="user-component_column">
+                    <span class="user-component-time">18:22</span>
+                    <div class="badge2">3</div>
+                </div>
+            </div>
+
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="https://cdn.imweb.me/upload/S202207215f9bbbf5e9735/a4c1af2bfa743.jpg"
+                        class="user-component__avatar user-component__avatar" alt="">
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">카리나</h4>
+                        <h6 class="user-component__subtitle">강릉가서 머리식히는거 콜?</h6>
+                    </div>
+                </div>
+                <div class="user-component_column">
+                    <span class="user-component-time">20:22</span>
+                    <div class="badge2">1</div>
+                </div>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="https://img2.daumcdn.net/thumb/R658x0.q70/?fname=https://t1.daumcdn.net/news/202204/27/mydaily/20220427161334789gztm.jpg"
+                        class="user-component__avatar user-component__avatar" alt="">
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">해원</h4>
+                        <h6 class="user-component__subtitle">Love Me Like This</h6>
+                    </div>
+                </div>
+                <div class="user-component_column">
+                    <span class="user-component-time">00:22</span>
+                    <div class="badge2">1</div>
+                </div>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDBF_cMFHvytMhglxQvKJQpWfZ_JnvjS7Zuw&usqp=CAU"
+                        class="user-component__avatar user-component__avatar" alt="">
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">민지</h4>
+                        <h6 class="user-component__subtitle">지금이 몇신지 알아?</h6>
+                    </div>
+                </div>
+                <div class="user-component_column">
+                    <span class="user-component-time">10:22</span>
+                    <div class="badge2">4</div>
+                </div>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="https://ojsfile.ohmynews.com/BIG_IMG_FILE/2022/1008/IE003061571_BIG.jpg"
+                        class="user-component__avatar user-component__avatar" alt="">
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">하니</h4>
+                        <h6 class="user-component__subtitle">하니가 팔리면 팜하니~</h6>
+                    </div>
+                </div>
+                <div class="user-component_column">
+                    <span class="user-component-time">11:22</span>
+                    <div class="badge2">3</div>
+                </div>
+            </div>
+
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="https://media.bunjang.co.kr/product/195425945_1_1659596454_w360.jpg"
+                        class="user-component__avatar user-component__avatar" alt="">
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">혜린</h4>
+                        <h6 class="user-component__subtitle">혜인이 친구 혜린이야~</h6>
+                    </div>
+                </div>
+                <div class="user-component_column">
+                    <span class="user-component-time">16:22</span>
+                    <div class="badge2">6</div>
+                </div>
+            </div>
+
+        </main>
+
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__btn"><a class="nav__link" href="friends.html">
+                        <i class="fa-regular fa-user fa-2x"></i></a></li>
+                <li class="nav__btn"><a class="nav__link" href="chats.html">
+                        <span class="nav__notification badge">1</span><i class="fa-solid fa-comment fa-2x"></i></a>
+                </li>
+                <li class="nav__btn"><a class="nav__link" href="find.html"><i
+                            class="fa-solid fa-magnifying-glass fa-2x"></i></a>
+                </li>
+                <li class="nav__btn"><a class="nav__link" href="more.html">
+                        <span class="nav__ellipsis"></span><i class="fa-solid fa-ellipsis fa-2x"></i></a></li>
+            </ul>
+        </nav>
+
+
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/f15b369f5f.js" crossorigin="anonymous"></script>
+    <script src="js/current-time.js"></script>
+</body>
+
+</html>

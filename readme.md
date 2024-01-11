@@ -6,12 +6,11 @@
 
 ### 2024/01/09(화) START
 
+<h3>코코아톡 클론코딩 - <a href="https://bp4sp4.github.io/KOKOA-CLONE/">Demo Site</a></h3>
+<br>
 #### To do List
 
-[ ] Screen Header<br>
-[ ] Chat<br>
-[ ] Search<br>
-[ ] Eliipls<br>
+[ ] More Screen part One<br>
 
 <h2>24/01/10(수)</h2>
 

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find - KoKoa Clone</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No services</span>
+                <i class="fa-solid fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span id="current-time"></span>
+            </div>
+            <div class="status-bar__column">
+                <span>110%</span>
+                <i class="fa-solid fa-battery-full fa-lg"></i>
+                <i class="fa-solid fa-bolt"></i>
+            </div>
+            <hr>
+        </div>
+        <header class="screen-header">
+            <h1 class="screen-header__title">검색</h1>
+            <div class="screen-header__icons">
+                <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+                <span class="nav__ellipsis__gear"></span>
+                <span><i class="fa-solid fa-gear fa-lg"></i></span>
+
+
+
+            </div>
+        </header>
+
+        <main class="main-screen">
+            <div class="find-icons">
+                <div class="find-icons__icon"><i class="fa-solid fa-qrcode"></i><span>QR 코드</span></div>
+                <div class="find-icons__icon"><i class="fa-regular fa-address-book"></i><span>연락처로 추가</span>
+                </div>
+                <div class="find-icons__icon"><i class="fa-regular fa-id-card"></i><span>ID로 추가</span></div>
+                <div class="find-icons__icon"><i class="fa-regular fa-envelope"></i><span>초대</span></div>
+            </div>
+            <div class="recommended-friends">
+                <h6 class="recommended-friends__title">친구 추천</h6>
+                <span>추천하는 친구가 없어요</span>
+            </div>
+            <div class="open-chat">
+                <div class="open-chat__header">
+                    <h4>오픈 채팅</h4>
+                    <span>오픈챗 홈으로 이동<i class="fa-solid fa-chevron-right fa-xs"></i></span>
+                </div>
+                <div class="open-post">
+                    <div class="open-post-column">
+                        <h5 class="open-post__title">#NewJeans</h5>
+                        <h6 class="open-post__hashtags">#newjeans#bunnies#eta</h6>
+                        <div class="open-post__members">
+                            <img src="img/profile2.jpeg">
+                            <span class="open-post__member-count">777명 참여중</span>
+                            <div class="divider"></div>
+                            <span class="open-post__member-status">활동중</span>
+                        </div>
+                    </div>
+                    <div class="open-post-column">
+                        <div class="open-post__photo">
+                            <img src="https://cdn.mediatoday.co.kr/news/photo/202311/313885_438531_4716.jpg" alt="뉴진스">
+                            <div class="open-post__heart-count">
+                                <i class="fa-solid fa-heart fa-xs"></i><span>326</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="open-post">
+                    <div class="open-post-column">
+                        <h5 class="open-post__title">#Aespa</h5>
+                        <h6 class="open-post__hashtags">#asepa#my ae#next level</h6>
+                        <div class="open-post__members">
+                            <img src="img/profile2.jpeg">
+                            <span class="open-post__member-count">1004명 참여중</span>
+                            <div class="divider"></div>
+                            <span class="open-post__member-status">활동중</span>
+                        </div>
+                    </div>
+                    <div class="open-post-column">
+                        <div class="open-post__photo">
+                            <img src="https://img1.daumcdn.net/thumb/R658x0.q70/?fname=https://t1.daumcdn.net/news/202303/16/starnews/20230316093729797ktch.jpg"
+                                alt="에스파">
+                            <div class="open-post__heart-count">
+                                <i class="fa-solid fa-heart fa-xs"></i><span>524</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </main>
+
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__btn"><a class="nav__link" href="friends.html">
+                        <i class="fa-regular fa-user fa-2x"></i></a></li>
+                <li class="nav__btn"><a class="nav__link" href="chats.html">
+                        <span class="nav__notification badge">1</span><i class="fa-regular fa-comment fa-2x"></i></a>
+                </li>
+                <li class="nav__btn"><a class="nav__link" href="find.html"><i
+                            class="fa-solid fa-magnifying-glass fa-2x"></i></a>
+                </li>
+                <li class="nav__btn"><a class="nav__link" href="more.html">
+                        <span class="nav__ellipsis"></span><i class="fa-solid fa-ellipsis fa-2x"></i></a></li>
+            </ul>
+        </nav>
+
+
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/f15b369f5f.js" crossorigin="anonymous"></script>
+    <script src="js/current-time.js"></script>
+</body>
+
+</html>
