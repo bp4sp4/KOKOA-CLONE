@@ -9,10 +9,6 @@
     padding: 0px 0px 20px 0px;
 }
 
-.user-component:last-child {
-    border: none;
-}
-
 .user-component,
 .user-component__column:first-child {
     display: flex;
