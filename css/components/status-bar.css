@@ -13,7 +13,7 @@
     /* float: right; */
     display: flex;
     justify-content: right;
-    width: 125px;
+    width: 115px;
 }
 
 .status-bar__column:first-child span {
