@@ -3,7 +3,8 @@
     justify-content: center;
     padding: 5px 3px;
     position: fixed;
-    width: 390px;
+    width: 360px;
+
     border-bottom: 1px solid rgba(80, 80, 80, 0.4);
 }
 
