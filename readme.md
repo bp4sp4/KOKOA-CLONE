@@ -10,8 +10,8 @@
 <br>
 #### To do List
 
-[ ] More Screen part One<br>
-
+- [ ] More Screen part One<br>
+- [ ] More 스크린만 남음
 <h2>24/01/10(수)</h2>
 
 - 친구, 채팅, 검색 영역 완성
