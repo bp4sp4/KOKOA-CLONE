@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More - KoKoa Clone</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No services</span>
+                <i class="fa-solid fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span id="current-time"></span>
+            </div>
+            <div class="status-bar__column">
+                <span>110%</span>
+                <i class="fa-solid fa-battery-full fa-lg"></i>
+                <i class="fa-solid fa-bolt"></i>
+            </div>
+            <hr>
+        </div>
+        <header class="screen-header">
+            <h1 class="screen-header__title">더보기</h1>
+            <div class="screen-header__icons">
+                <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+                <span><i class="fa-solid fa-music fa-lg"></i></span>
+                <span class="nav__ellipsis__gear"></span>
+                <span><a href="setting.html"><i class="fa-solid fa-gear fa-lg"></i></a></span>
+            </div>
+        </header>
+        <main class="main-screen more-screen">
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="img/profile2.jpeg" class="user-component__avatar user-component__avatar--sm" alt="">
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not-bold">채널+</h4>
+                        <h6 class="user-component__subtitle">+82 010-4710-9210<i class="fa-solid fa-exclamation"></i>
+                        </h6>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <i class="fa-regular fa-message fa-2x"></i>
+                </div>
+            </div>
+            <div class="icon-row">
+                <div class="icon-row__icon"><i class="fa-regular fa-calendar"></i><span>캘린더</span></div>
+                <div class="icon-row__icon"><i class="fa-regular fa-face-smile"></i><span>이모티콘</span>
+                </div>
+                <div class="icon-row__icon"><i class="fa-solid fa-paint-roller"></i><span>테마</span></div>
+                <div class="icon-row__icon"><i class="fa-solid fa-file-invoice-dollar"></i><span>계좌</span></div>
+
+            </div>
+            <div class="more-suggestions">
+                <h4 class="more-suggestions__title">Suggestions</h4>
+                <div class="more-suggestions__icons">
+                    <div class="more-suggestions__icon">
+                        <div class="more-suggestions__icon-image">
+                            <i class="fa-solid fa-quote-right"></i>
+                        </div>
+                        <span class="more-suggestions__icon-text">KoKoa Story</span>
+                    </div>
+                    <div class="more-suggestions__icon">
+                        <div class="more-suggestions__icon-image">
+                            <i class="fa-solid fa-user-group"></i>
+                        </div>
+                        <span class="more-suggestions__icon-text">KoKoa friends</span>
+                    </div>
+                    <div class="more-suggestions__icon">
+                        <div class="more-suggestions__icon-image">
+                            <i class="fa-regular fa-gem"></i>
+                        </div>
+                        <span class="more-suggestions__icon-text">Friends Gem</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__btn"><a class="nav__link" href="friends.html">
+                        <i class="fa-regular fa-user fa-2x"></i></a></li>
+                <li class="nav__btn"><a class="nav__link" href="chats.html">
+                        <span class="nav__notification badge">11</span><i class="fa-regular fa-comment fa-2x"></i></a>
+                </li>
+                <li class="nav__btn"><a class="nav__link" href="find.html"><i
+                            class="fa-solid fa-magnifying-glass fa-2x"></i></a>
+                </li>
+                <li class="nav__btn"><a class="nav__link" href="more.html">
+                        <span class="nav__ellipsis"></span><i class="fa-solid fa-ellipsis fa-2x"></i></a></li>
+            </ul>
+        </nav>
+
+
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/f15b369f5f.js" crossorigin="anonymous"></script>
+    <script src="js/current-time.js"></script>
+</body>
+
+</html>

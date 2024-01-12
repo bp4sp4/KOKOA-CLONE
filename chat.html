@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat w/Sanghun - KoKoa Clone</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body id="chat-screen">
+    <div class="wrap2">
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No services</span>
+                <i class="fa-solid fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span id="current-time"></span>
+            </div>
+            <div class="status-bar__column">
+                <span>110%</span>
+                <i class="fa-solid fa-battery-full fa-lg"></i>
+                <i class="fa-solid fa-bolt"></i>
+            </div>
+            <hr>
+        </div>
+        <header class="alt-header">
+            <div class="alt-header__column">
+                <a href="chats.html">
+                    <i class="fa-solid fa-angle-left fa-2x"></i>
+                </a>
+            </div>
+            <div class="alt-header__column">
+                <h1 class="alt-header__title">박상훈</h1>
+            </div>
+            <div class="alt-header__column">
+                <span><i class="fa-solid fa-magnifying-glass fa-xl"></i></span>
+                <span><i class="fa-solid fa-bars fa-xl"></i></span>
+            </div>
+        </header>
+        <main class="main-screen main-chat">
+            <div class="chat__timestamp">
+                2024년 1월 12일 화요일
+            </div>
+            <div class="message-row">
+                <img src="img/profile.jpeg" alt="">
+                <div class="message-row__content">
+                    <span class="message__author">박상훈</span>
+                    <div class="message__info">
+                        <span class="message__bubble">안녕!</span>
+                        <span class="message__time">11:11</span>
+                    </div>
+                </div>
+            </div>
+            <div class="message-row message-row--own">
+                <div class="message-row__content">
+                    <div class="message__info">
+                        <span class="message__bubble">안녕!!</span>
+                        <span class="message__time">11:11</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <form class="reply">
+            <div class="reply__column">
+                <i class="fa-regular fa-square-plus fa-lg"></i>
+            </div>
+            <div class="reply__column">
+                <input type="text" placeholder="메시지를 입력하세요.">
+                <i class="fa-regular fa-face-smile fa-lg"></i>
+                <button>
+                    <i class="fa-solid fa-arrow-up"></i>
+                </button>
+            </div>
+        </form>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/f15b369f5f.js" crossorigin="anonymous"></script>
+    <script src="js/current-time.js"></script>
+</body>
+
+</html>

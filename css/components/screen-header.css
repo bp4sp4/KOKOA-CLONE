@@ -8,10 +8,24 @@
 }
 
 .screen-header__title {
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 600;
 }
 
 .screen-header__icons span {
     margin-left: 15px;
+}
+
+@keyframes roteteGear {
+    from {
+        transform: none;
+    }
+
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__icons .fa-gear:hover {
+    animation: roteteGear 1s linear infinite;
 }

@@ -36,8 +36,25 @@
     white-space: nowrap;
     word-wrap: normal;
     width: 220px;
-    overflow: hidden
+    overflow: hidden;
+    position: relative;
 }
+
+.user-component__subtitle i {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    color: tomato;
+    border: 1px solid tomato;
+    border-radius: 50%;
+    margin-left: 3px;
+    top: 0px;
+    left: 110px;
+}
+
 
 .user-component__avatar--xl {
     width: 80px;
